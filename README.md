@@ -1,100 +1,135 @@
-# 🏥 Hospital AI System
+# 🏥 Hospital AI Queue System
 
-An AI-powered healthcare assistance system designed to improve patient support, hospital workflow efficiency, and healthcare accessibility using intelligent automation.
+An intelligent healthcare application that prioritizes patients based on vital signs to help hospitals identify high-risk cases and improve emergency response.
 
-Built using Python · AI Integration · Machine Learning
-
----
-
-## 📌 Problem Statement
-
-Hospitals often face challenges such as delayed patient assistance, inefficient workflow management, and manual handling of repetitive healthcare tasks.
-
-This project aims to simplify healthcare interactions through an AI-powered system that provides faster and smarter support.
+Built with **Python • Streamlit • Pandas • Plotly**
 
 ---
 
-## 🚀 Solution
+## 📌 Project Overview
 
-Hospital AI System helps improve healthcare operations by providing:
+Hospital AI Queue System is a healthcare decision-support application that analyzes patient vital signs such as heart rate, oxygen level, and body temperature to determine health risk, recommend medical actions, and assign queue priority.
 
-* 🤖 AI-powered healthcare assistance
-* 💬 Smart patient interaction support
-* 📋 Automated healthcare workflow handling
-* ⚡ Faster response and decision support
-* 🏥 Improved accessibility to healthcare information
+The application provides an interactive dashboard that enables healthcare staff to quickly assess patients and prioritize emergency care.
 
 ---
 
-## ✨ Features
+## 🏥 Problem Statement
 
-* AI-driven healthcare assistance
-* Smart patient query handling
-* Data-driven healthcare insights
-* User-friendly interface
-* Real-time interaction support
-* Scalable healthcare solution
+Emergency departments often receive multiple patients simultaneously, making it difficult to identify critical cases quickly. Manual triage can delay treatment and increase response time.
+
+This project provides an automated patient risk assessment system that helps prioritize patients based on their health condition.
+
+---
+
+## 🚀 Features
+
+- 🩺 Patient information management
+- 🤖 Automated risk assessment
+- 🚨 Critical, Moderate, and Stable patient classification
+- 🏥 Hospital queue prioritization
+- 💡 AI-based medical recommendations
+- 📊 Interactive visualization of patient vital signs
+- 🎯 User-friendly Streamlit interface
 
 ---
 
 ## 🛠 Tech Stack
 
-| Category      | Technologies        |
-| ------------- | ------------------- |
-| Programming   | Python              |
-| Data Analysis | Pandas, NumPy       |
-| AI / ML       | Scikit-learn        |
-| Visualization | Matplotlib, Seaborn |
-| Environment   | Jupyter Notebook    |
+| Category | Technologies |
+|-----------|--------------|
+| Language | Python |
+| Framework | Streamlit |
+| Data Processing | Pandas |
+| Visualization | Plotly Express |
+| IDE | VS Code / Jupyter |
+
+---
+
+## 🏗️ System Architecture
+
+```
+Patient Information
+        │
+        ▼
+Risk Assessment Engine
+        │
+        ▼
+Patient Classification
+(Critical / Moderate / Stable)
+        │
+        ├── Queue Priority
+        ├── Medical Recommendation
+        └── Health Metrics Dashboard
+```
 
 ---
 
 ## 📂 Project Structure
 
-```bash
+```
 hospital-ai-system/
 │
-├── hospital_ai_system.ipynb
-├── dataset/
+├── app.py
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## ⚙️ Local Setup
+## ⚙️ Installation
+
+### Clone the repository
 
 ```bash
-# Clone repository
 git clone https://github.com/Riddhimaraii/hospital-ai-system.git
-
-# Navigate to folder
 cd hospital-ai-system
+```
 
-# Install dependencies
+### Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Run notebook
-jupyter notebook
+### Run the application
+
+```bash
+streamlit run app.py
 ```
 
 ---
 
-## 📊 Future Improvements
+## 📊 Output
 
-* AI-based symptom prediction
-* Real-time patient monitoring
-* Cloud deployment
-* Interactive healthcare dashboard
-* Advanced predictive analytics
+The system provides:
+
+- Patient health summary
+- Risk level prediction
+- Hospital queue priority
+- AI-based healthcare recommendation
+- Interactive vital signs dashboard
+
+---
+
+## 🔮 Future Improvements
+
+- Machine Learning-based risk prediction
+- Electronic Health Record (EHR) integration
+- Appointment scheduling
+- Doctor and patient login system
+- Real-time database connectivity
+- Cloud deployment
 
 ---
 
 ## 👩‍💻 Author
 
-**Riddhima Rai**
-AI & Data Analytics Enthusiast
+**Riddhima Rai**  
+ Data Analytics & AI Enthusiast
 
+GitHub: https://github.com/Riddhimaraii
 
+---
 
-⭐ Using AI to improve healthcare accessibility and efficiency.
+⭐ If you found this project useful, consider giving it a star!
